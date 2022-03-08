@@ -1,0 +1,142 @@
+1	Afrikaans	af	Afrikaans	
+2	Albanian	sq	shqip	
+3	Amharic	am	አማርኛ	
+4	Arabic	ar	العربية	
+5	Aragonese	an	aragonés	
+6	Armenian	hy	հայերեն	
+7	Asturian	ast	asturianu	
+8	Azerbaijani	az	azərbaycan dili	
+9	Basque	eu	euskara	
+10	Belarusian	be	беларуская	
+11	Bengali	bn	বাংলা	
+12	Bosnian	bs	bosanski	
+13	Breton	br	brezhoneg	
+14	Bulgarian	bg	български	
+15	Catalan	ca	català	
+16	Central Kurdish	ckb	کوردی (دەستنوسی عەرەبی)	
+17	Chinese	zh	中文	
+18	Chinese (Hong Kong)	zh-HK	中文（香港）	
+19	Chinese (Simplified)	zh-CN	中文（简体）	
+20	Chinese (Traditional)	zh-TW	中文（繁體）	
+21	Corsican	co	Corsican	
+22	Croatian	hr	hrvatski	
+23	Czech	cs	čeština	
+24	Danish	da	dansk	
+25	Dutch	nl	Nederlands	
+26	English	en	English	
+27	English (Australia)	en-AU	English (Australia)	
+28	English (Canada)	en-CA	English (Canada)	
+29	English (India)	en-IN	English (India)	
+30	English (New Zealand)	en-NZ	English (New Zealand)	
+31	English (South Africa)	en-ZA	English (South Africa)	
+32	English (United Kingdom)	en-GB	English (United Kingdom)	
+33	English (United States)	en-US	English (United States)	
+34	Esperanto	eo	esperanto	
+35	Estonian	et	eesti	
+36	Faroese	fo	føroyskt	
+37	Filipino	fil	Filipino	
+38	Finnish	fi	suomi	
+39	French	fr	français	
+40	French (Canada)	fr-CA	français (Canada)	
+41	French (France)	fr-FR	français (France)	
+42	French (Switzerland)	fr-CH	français (Suisse)	
+43	Galician	gl	galego	
+44	Georgian	ka	ქართული	
+45	German	de	Deutsch	
+46	German (Austria)	de-AT	Deutsch (Österreich)	
+47	German (Germany)	de-DE	Deutsch (Deutschland)	
+48	German (Liechtenstein)	de-LI	Deutsch (Liechtenstein)	
+49	German (Switzerland)	de-CH	Deutsch (Schweiz)	
+50	Greek	el	Ελληνικά	
+51	Guarani	gn	Guarani	
+52	Gujarati	gu	ગુજરાતી	
+53	Hausa	ha	Hausa	
+54	Hawaiian	haw	ʻŌlelo Hawaiʻi	
+55	Hebrew	he	עברית	
+56	Hindi	hi	हिन्दी	
+57	Hungarian	hu	magyar	
+58	Icelandic	is	íslenska	
+59	Indonesian	id	Indonesia	
+60	Interlingua	ia	Interlingua	
+61	Irish	ga	Gaeilge	
+62	Italian	it	italiano	
+63	Italian (Italy)	it-IT	italiano (Italia)	
+64	Italian (Switzerland)	it-CH	italiano (Svizzera)	
+65	Japanese	ja	日本語	
+66	Kannada	kn	ಕನ್ನಡ	
+67	Kazakh	kk	қазақ тілі	
+68	Khmer	km	ខ្មែរ	
+69	Korean	ko	한국어	
+70	Kurdish	ku	Kurdî	
+71	Kyrgyz	ky	кыргызча	
+72	Lao	lo	ລາວ	
+73	Latin	la	Latin	
+74	Latvian	lv	latviešu	
+75	Lingala	ln	lingála	
+76	Lithuanian	lt	lietuvių	
+77	Macedonian	mk	македонски	
+78	Malay	ms	Bahasa Melayu	
+79	Malayalam	ml	മലയാളം	
+80	Maltese	mt	Malti	
+81	Marathi	mr	मराठी	
+82	Mongolian	mn	монгол	
+83	Nepali	ne	नेपाली	
+84	Norwegian	no	norsk	
+85	Norwegian Bokmål	nb	norsk bokmål	
+86	Norwegian Nynorsk	nn	nynorsk	
+87	Occitan	oc	Occitan	
+88	Oriya	or	ଓଡ଼ିଆ	
+89	Oromo	om	Oromoo	
+90	Pashto	ps	پښتو	
+91	Persian	fa	فارسی	
+92	Polish	pl	polski	
+93	Portuguese	pt	português	
+94	Portuguese (Brazil)	pt-BR	português (Brasil)	
+95	Portuguese (Portugal)	pt-PT	português (Portugal)	
+96	Punjabi	pa	ਪੰਜਾਬੀ	
+97	Quechua	qu	Quechua	
+98	Romanian	ro	română	
+99	Romanian (Moldova)	mo	română (Moldova)	
+100	Romansh	rm	rumantsch	
+101	Russian	ru	русский	
+102	Scottish Gaelic	gd	Scottish Gaelic	
+103	Serbian	sr	српски	
+104	Serbo	sh	Croatian	
+105	Shona	sn	chiShona	
+106	Sindhi	sd	Sindhi	
+107	Sinhala	si	සිංහල	
+108	Slovak	sk	slovenčina	
+109	Slovenian	sl	slovenščina	
+110	Somali	so	Soomaali	
+111	Southern Sotho	st	Southern Sotho	
+112	Spanish	es	español	
+113	Spanish (Argentina)	es-AR	español (Argentina)	
+114	Spanish (Latin America)	es-419	español (Latinoamérica)	
+115	Spanish (Mexico)	es-MX	español (México)	
+116	Spanish (Spain)	es-ES	español (España)	
+117	Spanish (United States)	es-US	español (Estados Unidos)	
+118	Sundanese	su	Sundanese	
+119	Swahili	sw	Kiswahili	
+120	Swedish	sv	svenska	
+121	Tajik	tg	тоҷикӣ	
+122	Tamil	ta	தமிழ்	
+123	Tatar	tt	Tatar	
+124	Telugu	te	తెలుగు	
+125	Thai	th	ไทย	
+126	Tigrinya	ti	ትግርኛ	
+127	Tongan	to	lea fakatonga	
+128	Turkish	tr	Türkçe	
+129	Turkmen	tk	Turkmen	
+130	Twi	tw	Twi	
+131	Ukrainian	uk	українська	
+132	Urdu	ur	اردو	
+133	Uyghur	ug	Uyghur	
+134	Uzbek	uz	o‘zbek	
+135	Vietnamese	vi	Tiếng Việt	
+136	Walloon	wa	wa	
+137	Welsh	cy	Cymraeg	
+138	Western Frisian	fy	Western Frisian	
+139	Xhosa	xh	Xhosa	
+140	Yiddish	yi	Yiddish	
+141	Yoruba	yo	Èdè Yorùbá	
+142	Zulu	zu	isiZulu

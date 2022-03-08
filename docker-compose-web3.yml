@@ -1,0 +1,38 @@
+---
+# ----------------------------------------------------------------------------------------
+# -- Docs: none --
+# ----------------------------------------------------------------------------------------
+
+version: '3.1'
+services:
+  reactjs:
+    # image: kaiten/node14:V1
+    image: kaiten/node16:V1
+    container_name: reactjs_rd
+    hostname: reactjs_host
+    environment:
+      CHOKIDAR_USEPOLLING: "true" #Use polling to watch for file changes in create react app
+    volumes:
+      - ./.data/workspace/:/home/senjoe/src/workspace/
+    tty: true
+    expose:
+      - "8545"
+      # - "49153" #webpack default hot reload port
+      - "3333" #sanity default port
+    ports:
+      - "8545:8545"
+      - "5050:5000"
+      - "3050:3000"
+      - "3330:3333"
+      # - "49153:49153"
+      # IPFS:
+      #   image: ipfs/go-ipfs:latest
+      #   container_name: ipfs_rd
+      #   ports:
+      #     - "4001:4001"
+      #     - "0.0.0.0:5001:5001"
+      #     - "0.0.0.0:8080:8080"
+      #   volumes:
+      #     - ./ipfs/staging:/export
+      #     - ./ipfs/data:/data/ipfs
+      #   tty: true

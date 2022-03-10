@@ -25,7 +25,8 @@
     "**/*.tsx",
     "components/header/nftMarketHeader/NFTMarketHeader.jsx",
     "components/header/nftMarketHeader/TechMeta.jsx",
-    "components/header/nftMarketHeader/Index.jsx"
+    "components/header/nftMarketHeader/Index.jsx",
+    "layout/NFTMarketLayoutOne.jsx"
   ],
   "exclude": [
     "node_modules"

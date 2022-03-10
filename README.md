@@ -10,6 +10,9 @@ _____
 ```
     docker-compose -f docker-compose-web3.yml up -d
     docker-compose -f docker-compose-web3.yml down --remove-orphans
+    
+    docker-compose -f docker-compose-webend.yml up -d
+    docker-compose -f docker-compose-webend.yml down --remove-orphans
 ```
 
 _____
@@ -99,7 +102,6 @@ or
 ```
 
 
-
 #### Git basic command
 cd web3-project
 ```
@@ -117,6 +119,10 @@ git checkout web3-project
 ```
 ** no large file. thats bring hell to earth
 **use personal access token as password in CLI
+
+**window git credentail
+-Control Panel\User Accounts\Credential Manager
+-delete git or github 
 
 ____
 #### shell 
@@ -142,13 +148,3 @@ ____
 
 ```
 
-พี่ๆ ตอนทํางานบน SSH บน Linux ผมอยากให้ใช้ตัว tmux ในการรัน services นะ เพราะว่า ถ้าไปรันอะไรที่เป็น services นอก working session มันจะไปซํ้ากัน เพราะบางคนอาจจะใช้งานอยู่ในตอนนั้นแต่เราไม่รู้ 
-
-วิธีใช้งานง่ายๆ บน tmux ในตอนนี้แบบเร็วๆ คือ
-tmux ls - ลิสต์ตัว session ออกมาดูว่าอะไรบ้างบนเซิร์ฟเวอร์ (ปัจจุบัน ณ วันนี้มีแค่ Session ที่มีชื่อว่า "Web"
-
-tmux a -t "<session>" - attach เข้าไปในหน้า session เพื่อทํางานหรือรัน services บางอย่างและทํางานร่วมกับคนอื่่นได้ เพราะเวลาคนอื่นเขียนคําสั่งเราก็จะเห็นด้วย ณ ตอนนั้นเลย (ปัจจุบันมีแต่ Session "Web" ให้ใช้คําสั่ง tmux a -t "Web" เพื่อเข้า Session)
-
-กด Ctrl + b และกดตัว d - เพื่อ dettach ออกจากหน้า Session ที่เราทํางานอยู่ไปหน้า Linux ปกติที่เราไม่ได้แชร์การทํางานร่วมกับใคร
-
-กด Ctrl + b และลูกศรที่คีย์บอร์ดเพื่อไปใช้งานในอีก Pane (ในปัจจุบันมี 2 Panes ซ้ายกับขวา ถ้าอยากใช้จอซ้ายให้กด Ctrl + b และกดลูกศรซ้าย <- ถ้าอยากใช้จอขวาให้กด Ctrl + b และกดลูกศรขวา)

@@ -1,0 +1,71 @@
+{
+  "name": "typescript-express-starter",
+  "version": "8.1.2",
+  "description": "Quick and Easy TypeScript Express Starter",
+  "author": "AGUMON <ljlm0402@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "typescript",
+    "express",
+    "routing-controllers",
+    "routing-controllers-openapi",
+    "sequelize",
+    "mongoose",
+    "typegoose",
+    "typeorm",
+    "knex",
+    "prisma",
+    "graphql",
+    "apollo",
+    "jest",
+    "nodemon",
+    "jsonwebtoken",
+    "bcrypt",
+    "logs",
+    "winston",
+    "swagger",
+    "pm2",
+    "eslint",
+    "prettier",
+    "docker",
+    "docker-compose",
+    "nginx",
+    "huskyrc",
+    "mysql",
+    "mariadb",
+    "mongodb",
+    "postgresql",
+    "swc"
+  ],
+  "main": "bin/cli.js",
+  "bin": {
+    "typescript-express-starter": "bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "edit-json-file": "^1.5.0",
+    "gitignore": "^0.6.0",
+    "inquirer": "^6.5.2",
+    "ncp": "^2.0.0",
+    "ora": "^4.0.3"
+  },
+  "devDependencies": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">= 10.13.0",
+    "npm": ">= 6.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlm0402/typescript-express-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljlm0402/typescript-express-starter/issues"
+  },
+  "homepage": "https://github.com/ljlm0402/typescript-express-starter#readme"
+}

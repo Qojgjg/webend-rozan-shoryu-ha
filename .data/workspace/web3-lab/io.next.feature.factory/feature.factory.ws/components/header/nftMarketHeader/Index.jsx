@@ -1,38 +1,40 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks'
-import { userLanguage, userScrollHeight, userIsHamburgerOn } from '../../../features/usersetup/usersetupSlice';
+import { userLanguage, userScrollHeight, userIsHamburgerOn, searchMatchSet, userWarning } from '../../../features/usersetup/usersetupSlice';
 import TechMeta from './TechMeta'
 import NFTMarketHeader from './NFTMarketHeader'
 import NFTMarketHeaderMobile from './NFTMarketHeaderMobile'
-import MsgBar from './MsgBar'
+import Warning from '../../warning/Warning'
 
 
 const style = {
     wrapper: `fixed top-0 left-0 right-0`,
 }
 
-
 function Index() {
-    const [isMatched, setIsMatched] = useState(true)
+    const dispatch = useAppDispatch();
+
     const scrollHeight = useAppSelector(userScrollHeight);
     const hamburger = useAppSelector(userIsHamburgerOn);
+    const warning = useAppSelector(userWarning);
 
+    //turnoff search result when scrool
+    // useEffect(() => {
+    //     if (scrollHeight > 90) {
+    //         dispatch(searchMatchSet(false))
+    //     }
 
-    useEffect(() => {
-        if (scrollHeight > 90) {
-            setIsMatched(false)
-        }
+    // }, [scrollHeight])
 
-    }, [scrollHeight])
 
     return (
         <div className={style.wrapper} >
-            {scrollHeight <= 90 && <TechMeta setIsMatched={setIsMatched} isMatched={isMatched} />}
+            {scrollHeight <= 90 && <TechMeta />}
             {scrollHeight <= 280 && (
                 <>
                     <NFTMarketHeader />
-                    {/* <MsgBar /> */}
+                    {warning && (<Warning />)}
                 </>
             )}
             {hamburger && <NFTMarketHeaderMobile />}

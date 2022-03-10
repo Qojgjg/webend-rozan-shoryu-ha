@@ -4,9 +4,10 @@ import React, { useState } from 'react'
 import siteLogo from '../../../assets/logo-89nft.svg'
 import { AiOutlineSearch } from 'react-icons/ai'
 import { CgProfile } from 'react-icons/cg'
+import { users } from '../../../assets/dummieData/users.js'
 import { MdOutlineAccountBalanceWallet } from 'react-icons/md'
 import { useAppDispatch, useAppSelector } from '../../../app/hooks'
-import { userLanguage, hamburgerOnSet } from '../../../features/usersetup/usersetupSlice';
+import { userLanguage, userSigned, hamburgerOnSet, sideBarSet, signedSet } from '../../../features/usersetup/usersetupSlice';
 import { menu } from '../../../assets/option/navOption';
 import { navLangData } from '../../../assets/data/languageData';
 
@@ -34,16 +35,23 @@ const style = {
 }
 
 const NFTMarketHeader = () => {
-    const [isHmOpen, setIsHmOpen] = useState(false)
-    const [isSigned, setIsSign] = useState(true)
     const dispatch = useAppDispatch();
 
+    let user = users[1]
+
+    const isSigned = useAppSelector(userSigned);
     const lang = useAppSelector(userLanguage);
     let langFlag = lang.replace("-", "")
+
 
     const setHamburgerOn = () => {
         dispatch(hamburgerOnSet(true))
     };
+
+    const setSideBarOn = (sidebarSetup) => {
+        dispatch(sideBarSet(sidebarSetup))
+    };
+
 
     return (
         <>
@@ -107,11 +115,27 @@ const NFTMarketHeader = () => {
                                 </div>
                             ))}
                         </nav>
+
                         <div className={style.headUserArea}>
-                            <div className={style.profileButton}>
-                                <CgProfile className="text-3xl" />
+                            <div className={style.profileButton} onClick={() => setSideBarOn({ isOn: true, content: "user" })} >
+                                {isSigned
+                                    ? (
+                                        <div className='mt-2 '>
+                                            <Image src={user.img}
+                                                objectFit="cover"
+                                                className="rounded-full cursor-pointer"
+                                                height={29}
+                                                width={29}
+                                            />
+                                        </div>
+                                    )
+                                    : (<CgProfile className="text-3xl" />)
+                                }
                             </div>
-                            <div className={isSigned ? style.signButton : style.profileButton}>
+                            <div
+                                className={isSigned ? style.signButton : style.profileButton}
+                                onClick={() => setSideBarOn({ isOn: true, content: "connect" })}
+                            >
                                 <MdOutlineAccountBalanceWallet className={isSigned ? `text-3xl` : `text-[2.2rem]`} />
                             </div>
                         </div>

@@ -27,7 +27,7 @@ const style = {
     signButton: `mr-0 whitespace-nowrap inline-flex items-center justify-center px-1 py-1 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-blue-700 hover:bg-orange-500 cursor-pointer`,
 
     menuGroup: `group inline-block relative`,
-    subMenuWrapper: "top-10 absolute hidden group-hover:block rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden transform w-screen max-w-[12rem]",
+    subMenuWrapper: `top-10 absolute hidden group-hover:block rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden transform w-screen max-w-[12rem]`,
     subMenuItem: ` relative grid gap-1 bg-white `,
     subMenuItemLink: `flex items-start px-4 py-4 hover:bg-gray-200`,
     subMenuItemName: `text-base font-medium text-gray-500`,

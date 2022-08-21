@@ -97,6 +97,7 @@ _____
 or
 ```
     git remote add webend-rozan-shoryu-ha https://github.com/moretomato/webend-rozan-shoryu-ha.git
+    git remote add webend-rozan-shoryu-ha https://github.com/timesjoe/webend-rozan-shoryu-ha.git
     git remote rm webend-rozan-shoryu-ha
     git remote -v
 ```

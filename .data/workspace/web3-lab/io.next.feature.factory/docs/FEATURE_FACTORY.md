@@ -15,6 +15,13 @@
 - doc
 - *env
 
+### create NEXT phaser
+```
+npx create-next-app@latest -e with-tailwindcss next.phaser.crypterium && cd next.phaser.crypterium
+
+yarn add phaser
+```
+
 ### create NEXT app
 ```
 npx create-next-app@latest -e with-tailwindcss feature.factory.ws && cd feature.factory.ws

@@ -17,9 +17,11 @@ services:
     tty: true
     expose:
       - "8545"
+      - "8080" # webpack default port
       # - "49153" #webpack default hot reload port
       - "3333" #sanity default port
     ports:
+      - "8080:8080"
       - "8545:8545"
       - "5050:5000"
       - "3050:3000"
